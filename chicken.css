@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+ .section{
+background-image:url(isda.jpeg);
+background-size: cover;
+background-position: center;
+position: relative;
+z-index: 1; 
+}
+.section:after{
+content: '';
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+Background-color:black;
+opacity: .5;
+z-index:-1;
+}
+#header{
+Color:white;
+Font-face:Xanh mono;
+}
+
+
+nav{
+float: center center;
+line-height: 80px;
+
+}
+nav a{
+text-decoration: none;
+Letter-spacing: 4px;
+font-size: 20px;
+color: white;
+padding: 36px 10px;
+border: 2px solid white;
+font-family: "montserrat", sans-serif;
+text-transform: uppercase;
+padding: 12px 20px;
+min-width: 100px;
+margin: 10px;
+cursor: pointer;
+transition: color 0,4s linear;
+position: relative;
+z-index: 1;
+
+}
+nav a:hover{
+Color: black;
+
+}
+nav a::before{
+Content:"";
+position: absolute;
+ display: inline-block;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background: white;
+z-index: -1;
+transition: transform 0.5s;
+transform-origin: -1 -1;
+transition-timing-function: cubic-bezier(0.5,1.6,0,0.7);
+padding: 0;
+margin: 0;
+}.Issue::before{
+transform: scaleX(0);
+}
+.Advocacy::before{
+transform: scaleX(0);
+}
+
+.Reserved::before{
+transform: scaleX(0);
+}
+.Issue:hover::before{
+transform: scaleX(1);
+}
+.Advocacy:hover:before{
+transform: scaleX(1);
+}
+
+.Reserved:hover::before{
+transform: scaleX(1);
+}
+.BIBLI::before{
+transform: scaleX(0);
+}
+.BIBLI:hover::before{
+transform: scaleX(1);
+}
+.goto{
+Position:fixed;
+Width: 50px;
+Height: 50px;
+Background: black;
+bottom: 30px;
+Right:40px;
+
+Text-decoration:none;
+Text-align:center;
+Line-height:40px;
+Color:white;
+Font-size:0;
+Border-radius:5px;
+}
+Html{
+Scroll-behavior:smooth;
+}
+.arrow-up {
+	width: 0px;
+	height: 0px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 15px solid white;
+}
+.hello{
+Float: left;
+Width:100px;
+Height:auto;
+Padding-top:30px;
+Padding-left:30px;
+Padding-right:-100px;
+Margin-right:0px;
+}
+Img{
+Width:400px;
+Height:auto;
+Padding:30px;
+}
+.argh{
+Width:auto;
+Height:400px;
+Float:left;
+}
+.he{
+margin-Top: 100px;
+}
